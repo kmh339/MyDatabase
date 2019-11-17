@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCreateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DB생성"/>
+
+    <Button
+        android:id="@+id/btnInsertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data 생성 혹은 불러오기"/>
+
+    <Button
+        android:id="@+id/btnSelectAllData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data 가져오기"/>
+
+    <!--보이지 않게 처리함-->
+    <ListView
+        android:id="@+id/lvPeople"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+
+</LinearLayout>
+
